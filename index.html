@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <h1>Blackjack</h1>
-        <p id="message-el">Want to play a round?</p>
-        <p id="cards-el">Cards:</p>
-        <p id="sum-el">Sum:</p>
-        <button onclick="startGame()">START GAME</button>
-        <button onclick="newCard()">NEW CARD</button>
-        <!-- 1. Create a paragraph with an id of "player-el" -->
-        <script type = "module" src="index.js"></script>
-    </body>
+<head>
+    <link rel="stylesheet" href="index.css">
+   
+</head>
+<body>
+    <h1>BlackJack</h1>
+    <p id = "window">Want to play a round?</p>
+    <p id = "cards">Cards: </p>
+    <p id = "sum">Sum: </p>
+    <button id="startBtn">START GAME</button>
+    <button id="cardBtn">NEW CARD</button>
+    <p id = "rule">Rule: Sum: 21 = blackjack; once you got blackjack, need to refresh to draw a new card!</p>
+    <script src="index.js"></script>
+</body>
 </html>
